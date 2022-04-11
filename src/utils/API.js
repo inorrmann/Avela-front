@@ -1,11 +1,15 @@
 import axios from 'axios';
 
 export default {
-  addLeague: (name, latitude, longitude, budget) => {
-    return axios.post('/api/leagues', {name, latitude, longitude, budget});
+  addMovie: (name, likes) => {
+    return axios.post('/api/movies', {name, likes});
   },
 
-  findLeague: (query) => {
-    return axios.get('/api/leagues/', { params: query })
+  findMovies: () => {
+    return axios.get('/api/movies/all')
+  },
+
+  likeMovie: (id, likes) => {
+    return axios.put('api/movies', {id, likes});
   }
 }

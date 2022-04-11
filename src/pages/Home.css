@@ -1,0 +1,53 @@
+.home {
+    margin: 10rem;
+    text-align: center;
+}
+.home h1 {
+    font-weight: bold;
+    color: #3998fe;
+}
+.home a {
+    color: #456775;
+    font-size: 1.5rem;
+}
+.home a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+/* TABLE */
+.movie-list {
+    margin-top: 2rem;
+}
+.movie-name {
+    text-align: left;
+}
+
+.number-likes {
+    display: flex;
+    justify-content: center;
+}
+.like {
+    padding-left: 1rem;
+}
+.like:hover {
+    cursor: pointer;
+}
+
+/* ADD MOVIE */
+.new-movie {
+    width: 70%;
+    margin: 3rem auto 0.25rem;
+    display: flex;
+}
+.submit-movie {
+    margin-left: 1rem;
+}
+
+.add-button {
+    margin-top: 2rem;
+}
+
+.error-msg {
+    color: red;
+}
