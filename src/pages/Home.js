@@ -84,7 +84,7 @@ function Home() {
   return (
     <div className="home">
       <h1>The Movie Store</h1>
-      <Table className="movie-list" striped bordered size="sm">
+      <Table striped bordered size="sm">
         <thead>
           <tr>
             <th className="movie-name">Name</th>

@@ -2,6 +2,8 @@
 
 Technologies used: React, NodeJS, MySQL
 
+![Avela-page](./avela.gif)
+
 ## Instructions for running the app
 
 ### Clone Avela - back

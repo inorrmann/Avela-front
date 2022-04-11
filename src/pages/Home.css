@@ -16,9 +16,11 @@
 }
 
 /* TABLE */
-.movie-list {
-    margin-top: 2rem;
+.table {
+    width: 80%;
+    margin: 2rem auto 0;
 }
+
 .movie-name {
     text-align: left;
 }
