@@ -2,8 +2,6 @@
 
 Technologies used: React, NodeJS, MySQL
 
-![LeagueSide-page](./league.gif)
-
 ## Instructions for running the app
 
 ### Clone LeagueSide - back
@@ -13,5 +11,5 @@ Technologies used: React, NodeJS, MySQL
 * `npm start`
 
 ### Clone LeagueSide - front
-* `npm install`
+* `yarn install`
 * `npm start`
